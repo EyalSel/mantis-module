@@ -74,6 +74,6 @@
         "locale": "cpp",
         "queue": "cpp"
     },
-    "python.pythonPath": "/home/ubuntu/miniconda3/bin/python",
+    "python.pythonPath": "/home/ubuntu/miniconda3/envs/py36/bin/python",
     "python.formatting.provider": "black"
 }

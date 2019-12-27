@@ -151,6 +151,7 @@ int MantisCommand(ENQUEUE)(RedisModuleCtx *ctx, RedisModuleString **argv, int ar
   query["query_id"] = unique_id_int;
   query["_1_lg_sent"] = sent_time;
   query["_2_enqueue_time"] = current_time_s;
+  query["_2_queue_name"] = chosen_queue_name;
   std::string serialized_query = query.dump();
   // END: construct serialized_query
 
