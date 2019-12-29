@@ -20,7 +20,7 @@ class Worker:
         pass
 
     def __call__(self, *args):
-        time.sleep(0.02)
+        time.sleep(1./35.)
 
 
 @click.command()
